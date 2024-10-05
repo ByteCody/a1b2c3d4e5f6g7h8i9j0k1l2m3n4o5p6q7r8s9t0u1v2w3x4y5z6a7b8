@@ -1,3 +1,11 @@
+'''
+自行捉包把freevideo.zqqds.cn里面的datas(一般在请求头里)填到变量 hmck 中, 多账号@隔开
+export hmck="97681251ccd8dae69d664486e49xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+cron: 0 6,11,17,21 * * *
+const $ = new Env("河马饭点补贴");
+'''
+
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 import binascii
