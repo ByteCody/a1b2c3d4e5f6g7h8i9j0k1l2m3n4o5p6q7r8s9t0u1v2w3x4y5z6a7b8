@@ -16,5 +16,8 @@
 
 安装青龙面版py依赖，以下依赖安装过无需要再安装
 
+
 ```bash
-npm install
+
+pycryptodome
+requests
