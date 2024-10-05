@@ -1,12 +1,3 @@
-'''
-
-自行捉包把freevideo.zqqds.cn里面的datas(一般在请求参数里)填到变量 hmck 中, 多账号@隔开
-export hmck="97681251ccd8daxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-cron: 2 0,10,15,17,21 * * *
-const $ = new Env("河马日常");
-'''
-
 from asyncio import Task
 import re
 from Crypto.Cipher import AES
