@@ -690,9 +690,6 @@ def main():
     for index, datas in enumerate(datas_list, start=1):
         account_id = f"账号{index}"
         print(f"\n开始运行 {account_id}")
-
-   
-
         handle_tasks(datas)
 
 if __name__ == "__main__":
