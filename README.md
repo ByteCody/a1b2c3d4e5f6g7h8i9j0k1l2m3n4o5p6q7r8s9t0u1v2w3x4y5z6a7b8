@@ -17,11 +17,6 @@
 提供安装的步骤，包括所需的依赖和环境设置。
 
 ```bash
-# 克隆项目
-git clone https://github.com/yourusername/yourproject.git
-
-# 进入项目目录
-cd yourproject
 
 # 安装依赖
 npm install  # 或者其他依赖管理工具
