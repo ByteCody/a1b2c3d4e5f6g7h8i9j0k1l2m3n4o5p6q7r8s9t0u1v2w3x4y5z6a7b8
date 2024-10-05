@@ -1,3 +1,12 @@
+'''
+自行捉包把api.tianjinzhitongdaohe.com里面的token(一般在请求头里)填到变量 nnck 中, 多账号@隔开
+export nnck="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+cron: 20 8 * * *
+const $ = new Env("牛牛开宝箱");
+'''
+
+
 import os
 import random
 import time
